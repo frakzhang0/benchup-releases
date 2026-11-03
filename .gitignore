@@ -1,0 +1,11 @@
+*.py
+*.pyc
+*.ts
+*.tsx
+*.mjs
+*.db
+*.sqlite
+.env*
+backend/
+worker/
+node_modules/
