@@ -1,16 +1,16 @@
 {
   "assets": {
     "skill_installer": {
-      "download_url": "https://github.com/frakzhang0/benchup-releases/releases/download/v3.0.96/BENCHUP-SkillInstall.exe",
+      "download_url": "https://github.com/frakzhang0/benchup-releases/releases/download/v3.0.97/BENCHUP-SkillInstall.exe",
       "file_name": "BENCHUP-SkillInstall.exe",
-      "file_size": 10600587,
-      "sha256": "321cd5b37933b84aefa0104123da45e3c720a6927b5200d595aaccbbbcab1557"
+      "file_size": 10600567,
+      "sha256": "29c14012b9d5d69703d810ca506f46f70eda407496143f4e457f8c46e19e7cde"
     },
     "skill_update": {
-      "download_url": "https://github.com/frakzhang0/benchup-releases/releases/download/v3.0.96/BENCHUP-SkillUpdate-3.0.96.zip",
-      "file_name": "BENCHUP-SkillUpdate-3.0.96.zip",
-      "file_size": 36922047,
-      "sha256": "05bb92a4e5a693b183d9642d2c12cf85dbdbab1c4917d83da95de0a6db770de5"
+      "download_url": "https://github.com/frakzhang0/benchup-releases/releases/download/v3.0.97/BENCHUP-SkillUpdate-3.0.97.zip",
+      "file_name": "BENCHUP-SkillUpdate-3.0.97.zip",
+      "file_size": 36929359,
+      "sha256": "6856264e1b5b295671352211a84eeae88d3abbf2d54c27a66cd4ec8092c7f09c"
     },
     "windows_installer": {
       "download_url": "https://github.com/frakzhang0/benchup-releases/releases/download/v3.0.96/BENCHUP-Installer.exe",
@@ -25,8 +25,12 @@
       "sha256": "104083d14898be75ca9441629d03cd735067c63e38742bcb6f669fc79326b8ab"
     }
   },
-  "catalog_sha256": "4782b65be8df9e568715343948fe541dcac116d334c1bfefbcaec9e7e7328dda",
+  "catalog_sha256": "cc2b9590c0ceeae5e12b2aeae6eb446995dc1fe52ba287d974d385e54e05b94f",
+  "inherited_windows_catalog_sha256": "4782b65be8df9e568715343948fe541dcac116d334c1bfefbcaec9e7e7328dda",
+  "products": {
+    "skill": "3.0.97",
+    "windows": "3.0.96"
+  },
   "repository": "frakzhang0/benchup-releases",
-  "schema": "benchup-public-small-assets.v1",
-  "version": "3.0.96"
+  "schema": "benchup-public-small-assets.v2"
 }

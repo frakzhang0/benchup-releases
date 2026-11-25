@@ -7,9 +7,9 @@ description: 在 Windows x64 上使用 BENCHUP 处理用户指定的研究数据
 
 从官网最新清单读取 `installer.download_url` 和 `installer.sha256`，下载并核对后运行。Gitee 仓库如提供同名安装器，也须与清单校验一致；出现需要登录的提示时，使用清单中的 GitHub 地址。GitHub 最新小型安装器入口：
 
-https://github.com/frakzhang0/benchup-releases/releases/latest/download/BENCHUP-SkillInstall.exe
+https://github.com/frakzhang0/benchup-releases/releases/download/v3.0.97/BENCHUP-SkillInstall.exe
 
-官网版本清单为 https://benchup.cn/api/public/installation/skill/latest 。其中 `installer.download_url` 与 `installer.sha256` 用于下载和核对最新小安装器。当前发布为 3.0.96；安装器先校验已发布的基础运行组件，再应用小型编译差异更新，并逐文件核对最终程序。大运行组件只在首次安装时按需下载，官网不传输组件文件；不发布新的大型整包。首次安装请按真实下载进度等待，不要并发安装。
+官网版本清单为 https://benchup.cn/api/public/installation/skill/latest 。其中 `installer.download_url` 与 `installer.sha256` 用于下载和核对最新小安装器。当前 Skill 发布为 3.0.97；安装器先校验已发布的基础运行组件，再应用小型编译差异更新，并逐文件核对最终程序。大运行组件只在首次安装时按需下载，官网不传输组件文件；不发布新的大型整包。首次安装请按真实下载进度等待，不要并发安装。
 
 已有任务先查询状态，任务运行中不要执行 update；等停止后更新，保留原项目、成果与断点。更新前从最新清单重新下载小型安装器，不沿用旧安装器。研究程序没有随本仓库提供源代码。
 

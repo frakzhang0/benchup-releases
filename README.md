@@ -1,6 +1,6 @@
 # BENCHUP 安装入口
 
-当前版本：**3.0.96**。这里只提供安装说明、小型编译安装器及校验信息，不提供科研源码、用户数据或密钥。
+当前版本：**Windows 客户端 3.0.96 · Agent Skill 3.0.97**。这里只提供安装说明、小型编译安装器及校验信息，不提供科研源码、用户数据或密钥。
 
 | 使用方式 | 适合谁 | 入口 |
 | --- | --- | --- |
@@ -15,7 +15,8 @@
 
 - [Windows 最新清单](https://benchup.cn/api/public/installation/windows/latest)
 - [Skill 最新清单](https://benchup.cn/api/public/installation/skill/latest)
-- [GitHub 小型安装器与差异更新](https://github.com/frakzhang0/benchup-releases/releases/tag/v3.0.96)
+- [Windows 3.0.96 小型安装器与差异更新](https://github.com/frakzhang0/benchup-releases/releases/tag/v3.0.96)
+- [Skill 3.0.97 小型安装器与差异更新](https://github.com/frakzhang0/benchup-releases/releases/tag/v3.0.97)
 - [Gitee Windows 安装入口](https://gitee.com/castalzhang/bench-up)
 - [Gitee Skill 安装入口](https://gitee.com/castalzhang/benchup-skill)
 
@@ -30,6 +31,10 @@ GitHub 安装提示词：
 Gitee 安装提示词：
 
 > 请从 https://gitee.com/castalzhang/benchup-skill 读取 SKILL.md，在本机安装 BENCHUP Skill（Windows x64）。从 https://benchup.cn/api/public/installation/skill/latest 读取 installer.download_url 和 installer.sha256，下载并核对 BENCHUP-SkillInstall.exe。用 start --session 指定本对话 ID，在你的内置网页打开返回的工作台，指导我在 https://benchup.cn 登录或注册并确认连接。已有任务先查状态，不覆盖运行中的程序。等我指定数据和研究目标再开始，显示真实进度、图表与成果。
+
+## 本次 Skill 更新
+
+3.0.97 修复 Agent Skill 正常启动时的官网通信；重启沿用同一个安装身份，官网按产品显示记录。Windows 客户端继续使用 3.0.96。设备授权与近期在线状态分开展示，独立版不会因此接入官网控制。
 
 ## 更新与保留数据
 
